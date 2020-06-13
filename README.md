@@ -11,3 +11,7 @@ https://github.com/T-vK/ESP32-BLE-Keyboard
 ## led_lite
 
 M5ATOM liteでLED表示。
+
+## sleep
+
+Btn(GPIO39)でのウェイクアップ。
