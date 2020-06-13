@@ -1,4 +1,4 @@
-#include <M5StickC.h>
+#include <M5Atom.h>
 #include <BleKeyboard.h>
 
 //https://github.com/T-vK/ESP32-BLE-Keyboard
@@ -13,7 +13,7 @@ void setup() {
 void loop() {
     M5.update();
     if (bleKeyboard.isConnected()) {
-        if (M5.BtnB.wasPressed()) {
+        if (M5.Btn.wasPressed()) {
             bleKeyboard.write(KEY_LEFT_ARROW);
         }
     }
